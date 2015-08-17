@@ -1,0 +1,99 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:url(../picture/01.jpg)no-repeat fixed top;
+	background-size: 100% 100%;
+	bgcolor:blue;
+}
+
+.ct{
+	width:420px;
+	position:absolute;
+	left:50%;
+	margin-left:-210px;
+	padding-top: 20px;
+}
+.loginCt{
+	display: visible;
+}
+.enrollCt{
+	display: none;
+}
+.getPassWordCt{
+	display: none;
+}
+.loginCt,.enrollCt,.getPassWordCt{
+	/*background-color:#FFFFE0;*/
+	background-color:#FCFCFC;
+	border:0px solid;
+	box-shadow:#666 0 10px 10px;
+	padding-bottom: 20px;
+	border-radius:3px;
+}
+.myTitle{
+	font-family:courier;
+	text-align: center;	
+	margin-bottom: 40px;
+}
+.accountNumber,.passWorld,.userName,.rewritePassWorld{ 
+	width: 200px;
+}
+
+.loginCt .codes{
+	background: #FF7256;
+	border:1px solid #000;
+	border-radius: 2px;
+	cursor:pointer;
+}
+
+.loginCt a{
+	font-size: 8px;
+	cursor:pointer;
+}
+label{
+	float:right;
+	position:relative;
+	left:-73%;
+	top:25px;
+}
+input[type="text"],[type="password"]{
+	height:25px;
+	margin-left:115px;
+	border-radius:2px;
+	border:1px solid #EBEBEB;
+	margin-top:20px;
+	box-shadow:#666 0px;	
+	border-radius: 5px;
+}
+input[class="loginBtn"],[class="enrollBtn"],[class="getPassWordBtn"]{
+	width:265px;
+	height:40px;
+	margin-left:15%;
+	margin-top:20px;
+	border:1px solid #000;
+	border-radius:2px;
+	color:blue;
+	background:#F8F8FF;
+	font-size:20px;
+	cursor:pointer;
+}	
+input[class="loginBtn"]:hover,[class="enrollBtn"]:hover,[class="getPassWordBtn"]:hover{
+	color:white;
+	background:#F4A460;
+}	
+input[class="exitBtn"]{
+	border: 1px solid;
+	background: red;
+	border-radius:10%;
+	cursor:pointer;
+}
+
+.hint{
+	text-align: center;
+	position: relative;
+	top: 60px;
+	color: #191970;
+	font-size: 15px;
+	white-space: nowrap;     //强制字体不换行
+	font-family:Georgia,Serif;
+}

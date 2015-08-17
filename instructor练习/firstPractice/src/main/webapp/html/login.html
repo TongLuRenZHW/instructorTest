@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>登陆界面</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+	<div class="ct">
+		<div class="myTitle">
+			<h1>辅导员管理系统</h1>	
+		</div>
+		<div class="loginCt" id="loginCt">	
+			<label for="accountNumber">账号:</label>
+			<input type="text" id="accountNumber" class="accountNumber">
+			<a id="enrollUser" href="#">注册账号</a><br/>
+			<label for="passWorld">密码:</label>
+			<input type="password" id="passWorld" class="passWorld">
+			<a id="reGetPassWord" href="#">找回密码</a><br/>
+			<label for="code">验证码:</label>
+			<input type="text" id="code" class="code">
+			<input type="button" id="codes" class="codes" value="1234"><br/> 
+			<input type="button" class="loginBtn" value="登陆">
+		</div>
+		<div id="enrollCt" class="enrollCt">
+			<label for="userName">姓名:</label>
+			<input type="text" id="userName" class="userName"><br/>
+			<label for="accountNumbers">账号:</label>
+			<input type="text" id="accountNumbers" class="accountNumber"><br/>
+			<label for="passWorlds">密码:</label>
+			<input type="password" id="passWorlds" class="passWorld"><br/>
+			<label for="rewritePassWorlds">重复密码:</label>
+			<input type="password" id="rewritePassWorlds" class="rewritePassWorld"><br/>
+			<input type="button" class="enrollBtn" value="注册">
+			<input type="button" class="exitBtn" value="退出">
+		</div>
+		<div id="getPassWordCt" class="getPassWordCt">
+			<label for="userNames">姓名:</label>
+			<input type="text" id="userNames" class="userName"><br/>
+			<label for="accountNumberss">账号:</label>
+			<input type="text" id="accountNumberss" class="accountNumber"><br/>
+			<input type="button" class="getPassWordBtn" value="找回密码">
+			<input type="button" class="exitBtn" value="退出">
+		</div>
+		<div id="hint" class="hint">
+			<span>@西南科技大学计算机科学与技术辅导员基于学生信息管理系统</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="../javascript/jquery.js"></script>
+	<script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>
